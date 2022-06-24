@@ -1,0 +1,22 @@
+import java.io.*;
+class prog
+{
+public static void main(String args[]) throws Excetion
+{
+FileInputStream fin=new FileInputStream("Abc.txt");
+ObjectInputStream oin=new ObjectInputStream(fin);
+try
+{
+Student
+catch(Exception e)
+{
+System.out.println("Exception :"+e);
+}
+finally
+{
+oin.close();
+fin.close();
+}
+}
+}
+

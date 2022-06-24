@@ -1,0 +1,20 @@
+class shape
+{
+void draw()
+{
+System.out.println("Hello everyone");
+}
+}
+class square extends shape
+{
+System.out.println("Square shape");
+}
+}
+class prog
+{
+public static void main(String args[])
+{
+Shape obj=new Square();
+obj.draw();
+}
+}

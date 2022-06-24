@@ -1,0 +1,12 @@
+import java.util.*;
+class prog
+{
+public static void main(String args[])
+{
+Vector<String> data=new Vector<String>();
+data.add("Apple");
+data.add("Mango");
+data.add("Orange");
+data.add("Grapes");
+Iterator itr=data.iterator();
+

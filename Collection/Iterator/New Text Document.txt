@@ -1,0 +1,22 @@
+import java.util.*;
+class prog
+{
+public static void main(Strig args[])
+{
+LinkedList<String>data=new LinkedList ist<String>();
+data.add("Apple");
+data.add("Mange");
+data.add("Orange");
+data.add("Grapes");
+Iterator itr=data.I=iterator();
+while(itr.hasNext())
+{
+Systenm.out.println("Item  :"+itr.next());
+}
+itr.remove();
+System.out.println("--------------");
+for(String d:data)
+{
+System.out.println("Item :"+d);
+}
+}

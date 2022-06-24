@@ -1,0 +1,15 @@
+import java.util.Scanner;
+class prog
+{
+public static void main(String args)
+{
+Scanner sc=new Scanner(System.in);
+int arr[]=new int[]
+try
+{
+for(i=0;i<=n;i++)
+{
+if(i%7==0)
+{
+
+

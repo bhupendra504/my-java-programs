@@ -1,0 +1,23 @@
+import java.io.*;
+class prog
+{
+public sttaic void main(String args[])throws Exception
+{
+FileInputStream fin=new FileInputStream ("Abc.txt");
+ObjectInputStream oin=new ObjectInputStream (fin);
+try
+{
+student st=(student)oin.readobject();
+System.out.println("Id :"+st.id+"\tName :"+st.name+"\tCity :"+st.city);
+}
+catch(Exception)
+{
+
+}
+finally
+{
+oin.close();
+fin.close();
+}
+}
+}

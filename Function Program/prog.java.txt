@@ -1,0 +1,23 @@
+import java.util.Scanner;
+class prog
+{
+public void vowel(String..data)
+System.out.println("Welcome user");
+System.out.println("Invalid ID and password");
+System.out.println("Enter the user id");
+System.out.println("Enter the password");
+}
+}
+              
+
+
+
+
+
+
+
+
+
+
+
+
